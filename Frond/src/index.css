@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+background-image: url("https://wallpapercave.com/wp/wp12488613.jpg");
+background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el elemento */
+  background-position: center; /* Centra la imagen en el elemento */
+  height: 100vh;
+}
+
+
+* {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
